@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/**boot css**/
+.center{
+    max-width: 100%;
+    padding: 0 4%;
+    margin: 0 auto;
+}
+.w50{
+    width: 50%;
+    padding: 15px 2%;
+}
+.w33{
+    width: 33.3%;
+    padding: 0 12px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+/**estilização da página**/
+
+header{
+    background-color: #875858;
+}
+nav.desktop li{
+    font-size: 20px;
+    padding:40px 10px;
+    display: inline-block;
+}
+nav.desktop a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav.desktop a:hover{
+    text-decoration: underline;
+    opacity: 0.6;
+    transition: 0.6s;
+}
+section.banner-servicos{
+    background-image: url(/images/fundoDesfocado.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+section.banner-servicos h2{
+    padding-top: 5%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 34px;
+    color: #875858;
+}
+section.banner-servicos h3{
+    font-weight: 400;
+    padding: 15px 0;
+    font-size: 25px;
+    color: rgb(94, 89, 89);
+}
+section.banner-servicos h4{
+    font-weight: 400;
+    font-size: 20px;
+    color: #875858;
+    width: 180px;
+    text-align: center;
+    margin: 15px 0;
+}
+section.banner-servicos h4:hover{
+    background: #875858;
+    color: white;
+    transition: 0.5s;
+    border-radius: 15px;
+    cursor: pointer;
+}
+section.banner-servicos p{
+    color: rgb(94, 89, 89);
+    text-align: justify;
+    font-size: 18px;
+}
+
+footer{
+    background: #875858;
+    padding: 1% 0;
+}
+footer p{
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+
+
+/* estilização de imagens */
+
+img[src="images/Kalmte.png"]{
+    height: 100px;
+    width: 250px;
+    margin-left: 20px;
+}
+img.servicos{
+    height: 250px;
+    width: 430px;
+    border-radius: 5px;
+}
+.zoom {
+    transition: transform .2s;
+}
+.zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}

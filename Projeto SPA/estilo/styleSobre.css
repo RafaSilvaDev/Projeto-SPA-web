@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/**boot css**/
+.center{
+    max-width: 100%;
+    padding: 0 4%;
+    margin: 0 auto;
+}
+.w50{
+    width: 50%;
+    padding: 0 2%;
+}
+.w33{
+    width: 33.3%;
+    padding: 0 12px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+/**estilização da página**/
+img[src="images/Kalmte.png"]{
+    height: 100px;
+    width: 250px;
+    margin-left: 20px;
+}header{
+    background-color: #875858;
+}
+nav.desktop li{
+    font-size: 20px;
+    padding:40px 10px;
+    display: inline-block;
+}
+nav.desktop a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav.desktop a:hover{
+    text-decoration: underline;
+    opacity: 0.6;
+    transition: 0.6s;
+}
+section{
+    background-image: url(/images/fundoDesfocado.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 28px;
+    color: #875858;
+    padding: 2% 0;
+}
+h2{
+    font-weight: 400;
+    font-size: 20px;
+    color: #553a3a;
+    padding: 15px 0;
+}
+p{
+    color: rgb(94, 89, 89);
+    text-align: justify;
+    font-size: 18px;
+}
+li{
+    color: rgb(94, 89, 89);
+    text-align: justify;
+    font-size: 18px;
+    text-decoration: none;  
+}
+img[src="images/entrada.jpg"]{
+    height: 300px;
+    width: 550px;
+    margin: 100px 15px;
+}
+.zoom {
+    transition: transform .2s;
+}
+.zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+img.galeria{
+    height: 170px;
+    width: 300px;
+    margin: 15px 30px;
+}
+img{
+    border-radius: 5px;
+}
+footer{
+    background: #875858;
+    padding: 1% 0;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+}

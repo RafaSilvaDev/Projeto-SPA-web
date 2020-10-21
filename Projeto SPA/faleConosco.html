@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <head>
+        <title>
+            Kalmté - Seu SPA ideal!
+        </title>
+        <link href="estilo/styleFaleConosco.css" rel="stylesheet"/>
+        <link href="/estilo/css/all.css" rel="stylesheet"> <!--load all styles -->
+        <link rel="icon" href="images/flor.png" type="image/png" sizes="16x16">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta name="keywords" content="SPA,estilo-de-vida,bem-estar">
+        <meta name="description" content="SPA,bem-estar">
+    </head>
+    <body>
+        <header>
+            <div class="center">
+                <div class="logomarca left">
+                    <img src="images/Kalmte.png">
+                </div>
+            <nav class="desktop right">
+                <ul>
+                    <li><a href="PaginaSPA.html"> Home </a></li>
+                    <!-- principais informações sobre o spa -->
+                    <li><a href="sobre.html"> Sobre </a></li>
+                    <!-- mais sobre o SPA e a empresa -->
+                    <li><a href="servicos.html"> Serviços </a></li>
+                    <!-- produtos e servicos oferecidos pela empresa -->
+                    <li><a href="faleConosco.html"> Fale conosco </a></li>
+                    <!-- formulários para interações dos clientes -->
+                </ul>
+            </nav>
+            <div class="clear"></div>
+            </div><!--center-->
+        </header>
+
+        <section class="feedback">
+            <div class="w80">
+                <h1>Já teve alguma experiência marcante com nosso serviço? Conte-nos!</h1>
+            </div>
+                <div class="w80">
+                    <form action="#" method="POST"><!--formulário sem ação para depoimentos sobre o site -->
+                    <fieldset class="depoimento"> 
+                        <legend class="campo"> <b>Conte-nos um depoimento seu!</b> </legend>
+                        <br>
+                        <p>Insira seu nome:</p>
+                        <div class="campo">
+                            <input type="text" id="nome" name="nome" style="width: 30em" />
+                        </div>
+                        <p>Qual seu melhor e-mail?</p>
+                        <div class="campo">
+                            <input type="email" id="email" style="width: 30em" />
+                        </div>
+                        <p>Resuma seu depoimento em apenas uma frase:</p>
+                        <div class="campo">
+                            <input type="text" id="frase" style="width: 50em" />
+                        </div>
+                        <p>Agora, conte-nos como foi sua experiência!</p>
+                        <div class="campo">
+                            <input type="text" id="frase" style="width: 50em" />
+                        </div>
+
+                    <button class="botao submit zoom" type="submit" name="submit"><a href="PaginaSPA.html">Enviar </a></button>
+            
+                    <button class="botao limpar zoom" type="reset" name="Limpar">Limpar</button>
+                    
+                    </fieldset>
+                    </form>
+                </div>
+
+            <div class="w80">
+                <h1>Deseja trabalhar conosco? Nos envie este currículo!</h1>
+            </div>
+            <div class="w80">
+
+                <form action="#" method="POST" class="curriculo"><!--formulário sem ação em formato de currículo para o SPA-->
+
+                    <fieldset class="grupo"> 
+                        <legend> <b>Insira seu nome completo</b> </legend>
+                        <br>
+                        <div class="campo">
+                            <input type="text" id="nome" name="nome" style="width: 30em" />
+                        </div>
+                    </fieldset>
+            
+                     <br>
+            
+                    <fieldset class="grupo">
+                        <legend> <b>Insira sua data de nascimento</b> </legend>
+                        <div class="campo">
+                            <input type="date" id="data" name="data" style="width: 15em" placeholder="DD/MM/AAAA" />
+                        </div>
+                    </fieldset>
+            
+                    <br>
+            
+                    <fieldset class="grupo"> <legend> <b>Gênero</b> </legend>
+                        <div class="campo"> 
+                            <label class="checkbox">
+                                <input type="radio" name="sexo" value="masculino"> Masculino
+                            </label>
+                            
+                            <label class="checkbox">
+                                <input type="radio" name="sexo" value="feminino"> Feminino
+                            </label>
+                        </div>
+                        </fieldset>
+            
+                        <br>
+            
+                        <fieldset class="grupo"> 
+                            <legend> <b>Filiação</b> </legend>
+                            <div class="campo">
+                                <label for="nome">Nome completo da mãe</label>
+                                <br>
+                                <input type="text" id="nome" name="nome" style="width: 30em" />
+                            </div>
+                            <p>
+                            <div class="campo" >
+                                <label for="nome">Nome completo do pai </label>
+                                <br>
+                                <input type="text" id="nome" name="nome" style="width: 30em" />
+                            </div>
+                        </fieldset>
+            
+                        <br>
+            
+                        <fieldset class="grupo"> <legend> <b>Natural de</b> </legend>
+                            <div class="campo">
+                                <label for="cidade">Município</label>
+                                <br>
+                                <input type="text" id="cidade" name="cidade" style="width: 20em"/>
+                            </div>
+                            <div class="campo">
+                                <label for="estado">Estado</label>
+                                <br>
+                                <select name="estado" id="estado">
+                                    <option value="AC">AC</option> <option value="AL">AL</option> <option value="AM">AM</option>
+                                    <option value="BA">BA</option> <option value="CE">CE</option> <option value="DF">DF</option>
+                                    <option value="ES">ES</option> <option value="GO">GO</option> <option value="MA">MA</option>
+                                    <option value="MG">MG</option> <option value="MT">MT</option> <option value="MS">MS</option>
+                                    <option value="PA">PA</option> <option value="PB">PB</option> <option value="PE">PE</option>
+                                    <option value="PI">PI</option> <option value="PR">PR</option> <option value="RJ">RJ</option>
+                                    <option value="RN">RN</option> <option value="RO">RO</option> <option value="RR">RR</option>
+                                    <option value="RS">RS</option> <option value="SC">SC</option> <option value="SE">SE</option>
+                                    <option value="SP">SP</option> <option value="TO">TO</option>
+                                </select>
+                            </div>
+                            <div class="campo">
+                                <label for="cidade">Naturalidade</label>
+                                <br>
+                                <input type="text" id="cidade" name="cidade" style="width: 20em"/>
+                            </div>
+                        </fieldset>
+            
+                        <br>
+            
+                        <fieldset class="grupo"> 
+                            <legend> <b>E-mails para contato</b> </legend>
+                            <div class="campo">
+                                <label for="email">E-mail principal</label>
+                                <br>
+                                <input type="text" id="email" name="email" style="width: 30em" placeholder="exemplo@domínio.com" />
+                            </div>
+                            <p>
+                            <div class="campo" >
+                                <label for="email">E-mail secundário</label>
+                                <br>
+                                <input type="text" id="email" name="email" style="width: 30em" placeholder="exemplo@domínio.com" />
+                            </div>
+                        </fieldset>
+            
+                        <br>
+            
+                        <fieldset class="grupo"> 
+                            <legend> <b>Endereço</b> </legend>
+                            <div class="campo">
+                                <label for="endereco">Logradouro </label>
+                                <br>
+                                <input type="text" id="endereco" name="endereco" style="width: 10em" placeholder="Rua, Av, Rod, etc." />
+                            </div>
+                            <p>
+                            <div class="campo">
+                                <label for="endereco">Endereço </label>
+                                <br>
+                                <input type="text" id="endereco" name="endereco" style="width: 30em" />
+                            </div>
+                            <p>
+                            <div class="campo">
+                                <label for="endereco">Número </label>
+                                <br>
+                                <input type="text" id="endereco" name="endereco" style="width: 10em" placeholder="Ex: 0123" />
+                            </div>
+                            <p>
+                            <div class="campo">
+                                <label for="endereco">Bairro </label>
+                                <br>
+                                <input type="text" id="endereco" name="endereco" style="width: 20em" />
+                            </div>
+                            <p>
+                            <div class="campo">
+                                <label for="endereco">Complemento </label>
+                                <br>
+                                <input type="text" id="endereco" name="endereco" style="width: 15em" placeholder="Casa, Apartamento" />
+                            </div>
+                            <p>
+                            <div class="campo">
+                                <label for="endereco">Referência </label>
+                                <br>
+                                <input type="text" id="endereco" name="endereco" style="width: 22em" />
+                            </div>
+                            <p>
+                            <div class="campo">
+                                <label for="endereco">Cidade </label>
+                                <br>
+                                <input type="text" id="endereco" name="endereco" style="width: 30em"/>
+                            </div>
+                            <p>
+                            <div class="campo">
+                                <label for="endereco">Estado </label>
+                                <br>
+                                <input type="text" id="endereco" name="endereco" style="width: 8em" placeholder="Ex: SP" />
+                            </div>
+                            <p>
+                            <div class="campo">
+                                <label for="endereco">CEP </label>
+                                <br>
+                                <input type="text" id="endereco" name="endereco" style="width: 15em" />
+                            </div>
+                        </fieldset>
+            
+                        <br>
+            
+                        <fieldset class="grupo"> 
+                            <legend> <b>Telefones para contato</b> </legend>
+                            <div class="campo">
+                                <label for="tel">Residencial</label>
+                                <br>
+                                <input type="text" id="tel" name="tel" style="width: 11em" maxlength="11"  />
+                            </div>
+                            <p>
+                            <div class="campo" >
+                                <label for="tel">Comercial </label>
+                                <br>
+                                <input type="text" id="tel" name="tel" style="width: 11em" maxlength="11"/>
+                            </div>
+                            <p>
+                            <div class="campo">
+                                <label for="tel">Celular </label>
+                                <br>
+                                <input type="text" id="tel" name="tel" style="width: 11em" maxlength="11" />
+                            </div>
+                            <p>
+                            <div class="campo" >
+                                <label for="tel">Recado </label>
+                                <br>
+                                <input type="text" id="tel" name="tel" style="width: 11em" maxlength="11"/>
+                            </div>
+                        </fieldset>
+            
+                        <br>
+            
+                        <fieldset class="grupo"> 
+                            <legend> <b>RG </b> </legend>
+                            <div class="campo">
+                                <label for="rg">Número </label>
+                                <br>
+                                <input type="text" id="rg" name="rg" style="width: 15em"  />
+                            </div>
+                            <p>
+                            <div class="campo" >
+                                <label for="rg">Data de expedição </label>
+                                <br>
+                                <input type="date" id="rg" name="rg" style="width: 10em" placeholder="DD/MM/AAAA"/>
+                            </div>
+                            <p>
+                            <div class="campo">
+                                <label for="rg">Sigla do orgão expeditor </label>
+                                <br>
+                                <input type="text" id="rg" name="rg" style="width: 10em"  />
+                            </div>
+                            <p>
+                            <div class="campo" >
+                                <label for="rg">Estado </label>
+                                <br>
+                                <select name="rg" id="rg">
+                                    <option value="AC">AC</option> <option value="AL">AL</option> <option value="AM">AM</option>
+                                    <option value="BA">BA</option> <option value="CE">CE</option> <option value="DF">DF</option>
+                                    <option value="ES">ES</option> <option value="GO">GO</option> <option value="MA">MA</option>
+                                    <option value="MG">MG</option> <option value="MT">MT</option> <option value="MS">MS</option>
+                                    <option value="PA">PA</option> <option value="PB">PB</option> <option value="PE">PE</option>
+                                    <option value="PI">PI</option> <option value="PR">PR</option> <option value="RJ">RJ</option>
+                                    <option value="RN">RN</option> <option value="RO">RO</option> <option value="RR">RR</option>
+                                    <option value="RS">RS</option> <option value="SC">SC</option> <option value="SE">SE</option>
+                                    <option value="SP">SP</option> <option value="TO">TO</option>
+                                </select>
+                            </div>
+                        </fieldset>
+                        
+                        <br>
+            
+                        <fieldset class="grupo">
+                            <legend> <b>CPF </b> </legend>
+                            <div class="campo">
+                                <label for="cpf">Número </label>
+                                <br>
+                                <input type="text" id="cpf" name="cpf" style="width: 15em"  />
+                            </div>
+                            <p>
+                            <div class="campo" >
+                                <label for="cpf">Data de expedição </label>
+                                <br>
+                                <input type="date" id="cpf" name="cpf" style="width: 10em" placeholder="DD/MM/AAAA"/>
+                            </div>
+                        </fieldset>
+            
+                        <br>
+            
+                        <fieldset class="grupo">
+                            <legend> <b>Título eleitoral </b> </legend>
+                            <div class="campo">
+                                <label for="te">Número </label>
+                                <br>
+                                <input type="text" id="te" name="te" style="width: 16em" />
+                            </div>
+                            <p>
+                            <div class="campo" >
+                                <label for="te">Zona eleitoral </label>
+                                <br>
+                                <input type="text" id="te" name="te" style="width: 20em" />
+                            </div>
+                            <p>
+                                <div class="campo" >
+                                    <label for="te">Seção eleitoral </label>
+                                    <br>
+                                    <input type="number" id="te" name="te" style="width: 8em" />
+                                </div>
+                        </fieldset>
+            
+                        <br>
+            
+                        <fieldset class="grupo">
+                            <legend> <b>Carteira de habilitação </b> </legend>
+                            <div class="campo">
+                                <label for="ch">Número </label>
+                                <br>
+                                <input type="text" id="ch" name="ch" style="width: 18em" />
+                            </div>
+                            <p>
+                            <div class="campo" >
+                                <label for="ch">Data de validade </label>
+                                <br>
+                                <input type="date" id="ch" name="ch" style="width: 15em" />
+                            </div>
+                            <p>
+                                <div class="campo" >
+                                    <label for="ch">Categoria </label>
+                                    <p>
+                                    <label class="checkbox">
+                                        <input type="radio" name="ch" value="A"> A
+                                    </label>
+                                    <label class="checkbox">
+                                        <input type="radio" name="ch" value="B"> B
+                                    </label>
+                                    <label class="checkbox">
+                                        <input type="radio" name="ch" value="C"> C
+                                    </label>
+                                    <label class="checkbox">
+                                            <input type="radio" name="ch" value="D"> D
+                                    </label>
+                                    <label class="checkbox">
+                                            <input type="radio" name="ch" value="E"> E
+                                    </label>
+                                    <label class="checkbox">
+                                            <input type="radio" name="ch" value="ACC"> ACC
+                                    </label>
+                                </div>
+                        </fieldset>
+                        
+                        <br>
+            
+                        <fieldset class="grupo">
+                            <legend> <b>Carteira de trabalho </b> </legend>
+                            <div class="campo">
+                                <label for="ct">Número </label>
+                                <br>
+                                <input type="text" id="ct" name="ct" style="width: 10em" maxlength="8"/>
+                            </div>
+                            <p>
+                            <div class="campo" >
+                                <label for="ct">Série </label>
+                                <br>
+                                <input type="text" id="ct" name="ct" style="width: 11em" />
+                            </div>
+                        </fieldset>
+            
+                        <br>
+            
+                        <fieldset class="grupo">
+                            <legend> <b>Estado civíl</b> </legend>
+                            <div class="campo" >
+                            <p>
+                            <label class="checkbox">
+                                <input type="radio" name="ec" value="solteiro"> Solteiro
+                            </label>
+                            <p>
+                            <label class="checkbox">
+                                <input type="radio" name="ec" value="casado"> Casado
+                            </label>
+                            <p>
+                            <label class="checkbox">
+                                <input type="radio" name="ec" value="divorciado"> Divorciado
+                            </label>
+                            <p>
+                            <label class="checkbox">
+                                <input type="radio" name="ec" value="viuvo"> Viúvo(a)
+                            </label>
+                            <p>
+                            <label class="checkbox">
+                                <input type="radio" name="ec" value="uniao estavel"> Uniâo estável
+                            </label>
+                            <p>
+                            <label class="checkbox">
+                                <input type="radio" name="ec" value="outro"> Outro
+                            </label>
+                            </div>
+                            <div class="campo">
+                                <label for="ec">Nome do cônjugue </label>
+                                <br>
+                                <input type="text" id="ec" name="ec" style="width: 30em"/>
+                            </div>
+                        </fieldset>
+            
+                        <br>
+            
+                        <fieldset class="grupo">
+                            <legend> <b>Possui alguma deficiência física?</b> </legend>
+                            <div class="campo" >
+                            <p>
+                            <label class="checkbox">
+                                <input type="radio" name="df" value="sim"> Sim
+                            </label>
+                            <label class="checkbox">
+                                <input type="radio" name="df" value="nao"> Não
+                            </label>
+                            <p>
+                                <div class="campo">
+                                    <label for="df">Caso sim, qual? </label>
+                                    <br>
+                                    <input type="text" id="df" name="df" style="width: 20em"/>
+                                </div>
+                        </fieldset>
+            
+                        <br>
+            
+                        <fieldset class="grupo">
+                            <legend> <b>Tipo Sanguíneo</b> </legend>
+                            <div class="campo" >
+                            <p>
+                            <label class="checkbox">
+                                <input type="radio" name="ts" value="O"> O
+                            </label>
+                            <p>
+                            <label class="checkbox">
+                                <input type="radio" name="ts" value="A"> A
+                            </label>
+                            <p>
+                            <label class="checkbox">
+                                <input type="radio" name="ts" value="B"> B
+                            </label>
+                            <p>
+                            <label class="checkbox">
+                                <input type="radio" name="ts" value="AB"> AB
+                            </label>
+                        </fieldset>
+            
+                        <p>
+            
+                            <button class="botao submit zoom" type="submit" name="submit"><a href="PaginaSPA.html">Enviar </a></button>
+            
+                            <button class="botao limpar zoom" type="reset" name="Limpar">Limpar</button>
+            
+                </form>
+            </div>
+            <div class="clear"></div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Kalmté - Seu SPA ideal!
+        </title>
+        <link href="estilo/stylePrincipal.css" rel="stylesheet"/>
+        <link href="/estilo/css/all.css" rel="stylesheet"> <!--load all styles -->
+        <link rel="icon" href="images/flor.png" type="image/png" sizes="16x16">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta name="keywords" content="SPA,estilo-de-vida,bem-estar">
+        <meta name="description" content="SPA,bem-estar">
+    </head>
+    <body>
+        <header>
+            <div class="center">
+                <div class="logomarca left">
+                    <img src="images/Kalmte.png">
+                </div>
+            <nav class="desktop right">
+                <ul>
+                    <li><a href="PaginaSPA.html"> Home </a></li>
+                    <!-- principais informações sobre o spa -->
+                    <li><a href="sobre.html"> Sobre </a></li>
+                    <!-- mais sobre o SPA e a empresa -->
+                    <li><a href="servicos.html"> Serviços </a></li>
+                    <!-- produtos e servicos oferecidos pela empresa -->
+                    <li><a href="faleConosco.html"> Fale conosco </a></li>
+                    <!-- formulários para interações dos clientes -->
+                </ul>
+            </nav>
+            <div class="clear"></div>
+            </div><!--center-->
+        </header>
+
+        <section class="banner-principal"><!--banner principal da página-->
+            <div class="center">
+            <form>
+                <h2>Cadastre-se para receber nossas novidades!</h2>
+                <input type="email" name="email" placeholder="Seu e-mail" required />
+                <input type="submit" name="acao" value="cadastrar">
+            </form>
+            </div><!--center-->
+        </section>
+        
+        <section class="descricao-kalmate">
+            <div class="center">
+                <div class="w50 left">
+                <h2>O SPA que você precisa!</h2>
+                    <p>Seja bem-vindo ao Kalmté SPA, seu Spa ideal!<br>
+                    Um ambiente calmo e completo para você passar um tempo com você mesmo e descobrir como é bom sentir a vida à flor da pele. 
+                    Aqui, você se aproxima do seu corpo e mente e reflete todo esse bem-estar em tudo à sua volta.<br>
+                    Preparado com uma decoração especial, um ambiente que conta com sons inspirados
+                     na natureza e na meditação, variedade de aromas e um menu elaborado de maneira especial para você.</p>
+                </div><!--w50-->
+                <div class="w50 left">
+                    <img class="right" src="images/ambiente.webp">
+                </div><!--w50-->
+                <br><br>
+                <div class="w50 right">
+                    <p class="texto2">Possuímos ambientes particulares únicos, para você que preza pela privacidade.
+                        Estas salas possuem decorações de ambiente aberto, produtos especiais para cuidados de pele e uma piscina com controle
+                        de hidromassagem, para você poder desfrutar do relaxamento corporal e de alguns momentos calmos e únicos consigo mesmo.<br>
+                        Tudo isso acompanhado de serviços de quarto e vistas panorâmicas dos ambientes ao redor do próprio SPA.
+                    </p>
+                </div>
+                <div class="w50 right">
+                    <img class="left" src="images/ambiente2.jpg">
+                </div>
+            </div><!--center-->
+
+            <!--Pequena Galeria de fotos-->
+            <div class="lbox" id="img1">
+                <div class="box-img">
+                    <a href="#img5" class="btn" id="prev">&#171;</a>
+                    <a href="" class="btn" id="close">X</a>
+                    <img src="images/moderno.jpg">
+                    <a href="#img2" class="btn" id="next">&#187;</a>
+                </div>
+            </div>
+            <div class="lbox" id="img2">
+                <div class="box-img">
+                    <a href="#img1" class="btn" id="prev">&#171;</a>
+                    <a href="" class="btn" id="close">X</a>
+                    <img src="images/cadeiras.jpg">
+                    <a href="#img3" class="btn" id="next">&#187;</a>
+                </div>
+            </div>
+            <div class="lbox" id="img3">
+                <div class="box-img">
+                    <a href="#img2" class="btn" id="prev">&#171;</a>
+                    <a href="" class="btn" id="close">X</a>
+                    <img src="images/piscinona.jpg">
+                    <a href="#img4" class="btn" id="next">&#187;</a>
+                </div>
+            </div>
+            <div class="lbox" id="img4">
+                <div class="box-img">
+                    <a href="#img3" class="btn" id="prev">&#171;</a>
+                    <a href="" class="btn" id="close">X</a>
+                    <img src="images/piscininha.jpg">
+                    <a href="#img5" class="btn" id="next">&#187;</a>
+                </div>
+            </div>
+            <div class="lbox" id="img5">
+                <div class="box-img">
+                    <a href="#img4" class="btn" id="prev">&#171;</a>
+                    <a href="" class="btn" id="close">X</a>
+                    <img src="images/mulher.jpg">
+                    <a href="#img1" class="btn" id="next">&#187;</a>
+                </div>
+            </div>
+
+            <ul class="w50">
+                <li><a href="#img1"><img src="images/moderno.jpg" class="min zoom"></a></li>
+                <li><a href="#img2"><img src="images/cadeiras.jpg" class="min zoom"></a></li>
+                <li><a href="#img3"><img src="images/piscinona.jpg" class="min zoom"></a></li>
+                <li><a href="#img4"><img src="images/piscininha.jpg" class="min zoom"></a></li>
+                <li><a href="#img5"><img src="images/mulher.jpg" class="min zoom"></a></li>
+            </ul>
+            <div class="clear"></div>
+        </section>
+
+        <section class="depoimentos">
+            <div class="center">
+                <div class="w50">
+                    <h2 class="title">Depoimentos</h2>
+                </div><!--w50-->
+                    <div class="w33 left mbox-exclusivos">
+                        <h4><i class="fa fa-coffee" aria-hidden="true"></i></h4>
+                        <h3><i class="fa fa-quote-left" aria-hidden="true"></i>
+                            Adorei a comida!
+                            <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        </h3>
+                        <p>Super saudável e equilibrada. Sinto que comi demais, mas comi coisas do bom e do melhor. 
+                        Parabéns à cozinha!</p>
+                    </div><!--w33 e box-->
+                    <div class="w33 left box-exclusivos">
+                        <h4><i class="fa fa-bath" aria-hidden="true"></i></h4>
+                        <h3><i class="fa fa-quote-left" aria-hidden="true"></i>
+                            Amei os banhos com hidromassagem!
+                            <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        </h3>
+                        <p>Me senti como estivesse em outro mundo! Realmente toda a estrutura das piscinas e banheiros de quarto
+                            estão de parabéns.
+                        </p>
+                    </div><!--w33 e box-->
+                    <div class="w33 left box-exclusivos">
+                        <h4><i class="fa fa-female" aria-hidden="true"></i></h4>
+                        <h3><i class="fa fa-quote-left" aria-hidden="true"></i>
+                            Gostei muito das funcionárias!
+                            <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        </h3>
+                        <p>Todas são muito gentis e acolhedoras. Parabéns a toda equipe.
+                            Consegui virar até amiga delas, acreditam?!</p>
+                    </div><!--w33 e box-->
+            </div><!--center-->
+            <div class="clear"></div>
+        </section>
+
+        <section class="social">
+            <div class="center">
+                <div class="w50 left">
+                    <p>Siga-nos para ficar por dentro de muitas novidades!</p>
+                    <a href="https://web.whatsapp.com/"><img class="redes zoom" src="images/whats.png"></a>  <a href="https://www.instagram.com/"><img class="redes zoom" src="images/insta.png"></a> 
+                    <a href="https://www.facebook.com/"><img class="redes zoom" src="images/face.png"></a>  <a href="https://twitter.com/"><img class="redes zoom"  src="images/tt.png"></a>
+                </div><!--w50-->
+                <div class=" center right">
+                    <p class="news"> Confira nossa Newsletters abaixo! </p>
+                    <CENTER>
+                        <a href="news.html"> <i class="far fa-newspaper icon zoom"> </a></i>
+                    </CENTER>
+                </div>
+            </div><!--center-->
+            <div class="clear"></div>
+        </section>
+        <footer>
+            <div class="center">
+                <p>Kalmté SPA - Todos os direitos reservados.</p>
+            </div>
+           
+        </footer>
+    </body>
+</html>
